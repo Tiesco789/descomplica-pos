@@ -7,6 +7,5 @@ public class App {
         Gato g = new Gato();
         g.setNome("Lola");
         g.mostrar();
-
     }
 }
