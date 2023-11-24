@@ -3,13 +3,11 @@ public class CarroDefinition extends Carro {
         super(marca, modelo, ano, versao);
     }
 
-    public void mostrarCarroChevrolet() {
-        String[][] carroArray = mostrarCarro();
+    // Método específico para mostrar detalhes de um Chevrolet
+    public void mostrarDetalhesChevrolet() {
+        System.out.println("Carro Chevrolet: ");
 
-        System.out.println("Carro");
-        System.out.println("Marca: " + carroArray[0][0]);
-        System.out.println("Modelo: " + carroArray[0][1]);
-        System.out.println("Ano: " + carroArray[0][2]);
-        System.out.println("Versão: " + carroArray[0][3]);
+        // Reutiliza o método da classe pai
+        mostrarDetalhesCarro(); 
     }
 }
