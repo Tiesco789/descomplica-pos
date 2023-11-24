@@ -5,7 +5,6 @@ public class CarroDefinition extends Carro {
 
     // Método específico para mostrar detalhes de um Chevrolet
     public void mostrarDetalhesChevrolet() {
-        System.out.println("Carro Chevrolet: ");
 
         // Reutiliza o método da classe pai
         mostrarDetalhesCarro(); 

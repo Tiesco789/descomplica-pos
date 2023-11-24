@@ -49,7 +49,6 @@ public class Carro {
 
     // Método melhorado para mostrar os detalhes do carro
     public void mostrarDetalhesCarro() {
-        System.out.println("Carro:");
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
