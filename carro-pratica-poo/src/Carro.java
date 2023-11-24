@@ -11,53 +11,56 @@ public class Carro {
         this.versao = versao;
     }
 
-    public void setMarca(String brand) {
-        this.marca = brand;
-    }
-
+    // Getter e setter para Marca
     public String getMarca() {
-        return this.marca;
+        return marca;
     }
 
-    public void setModelo(String mod) {
-        this.modelo = mod;
-    }
-
-    public String getModelo() {
-        return this.modelo;
-    }
-
-    public void setAno(int year) {
-        this.ano = year;
-    }
-
-    public int getAno() {
-        return this.ano;
-    }
-
-    public void setVersao(String ver) {
-        this.versao = ver;
-    }
-
-    public String getVersao() {
-        return this.versao;
-    }
-
-    public String[][] mostrarCarro() {
-        String[][] carroArray = new String[1][4];
-
-        carroArray[0][0] = this.marca;
-        carroArray[0][1] = this.modelo;
-        carroArray[0][2] = String.valueOf(this.ano);
-        carroArray[0][3] = this.versao;
-
-        return carroArray;
-    }
-
-    public void atualizarCarro(String marca, String modelo, int ano, String versao) {
+    public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    // Getter e setter para Modelo
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    // Getter e setter para Ano
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
         this.ano = ano;
+    }
+
+    // Getter e setter para Versão
+    public String getVersao() {
+        return versao;
+    }
+
+    public void setVersao(String versao) {
         this.versao = versao;
+    }
+
+    // Método melhorado para mostrar os detalhes do carro
+    public void mostrarDetalhesCarro() {
+        System.out.println("Carro:");
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Ano: " + ano);
+        System.out.println("Versão: " + versao);
+    }
+
+    // Método para atualizar detalhes do carro
+    public void atualizarDetalhesCarro(String marca, String modelo, int ano, String versao) {
+        setMarca(marca);
+        setModelo(modelo);
+        setAno(ano);
+        setVersao(versao);
     }
 }
