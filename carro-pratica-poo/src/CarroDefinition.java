@@ -4,7 +4,6 @@ public class CarroDefinition extends Carro {
     }
 
     public void mostrarCarroChevrolet() {
-        // Chamando o método mostrarCarro() da classe pai (Carro)
         String[][] carroArray = mostrarCarro();
 
         System.out.println("Carro");
