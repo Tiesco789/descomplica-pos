@@ -3,10 +3,10 @@ public class CarroDefinition extends Carro {
         super(marca, modelo, ano, versao);
     }
 
-    // Método específico para mostrar detalhes de um Chevrolet
+    // Método específico para mostrar detalhes de um Chevrolet por exemplo
     public void mostrarDetalhesChevrolet() {
 
-        // Reutiliza o método da classe pai
+        // Reutiliza o método da classe Carro
         mostrarDetalhesCarro(); 
     }
 }
