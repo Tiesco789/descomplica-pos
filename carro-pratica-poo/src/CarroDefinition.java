@@ -1,5 +1,5 @@
-public class Chevrolet extends Carro {
-    public Chevrolet(String marca, String modelo, int ano, String versao) {
+public class CarroDefinition extends Carro {
+    public CarroDefinition(String marca, String modelo, int ano, String versao) {
         super(marca, modelo, ano, versao);
     }
 
