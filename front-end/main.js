@@ -1,10 +1,21 @@
 /**
- * For Each
+ * Classe
  */
-let foods = ['pizza', 'pão', 'macarrão', 'sushi'];
+class Pessoa {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
-foods.map((food, id, arr) => {
-    return id, food;
-});
+    falar() {
+        console.log("Olá, eu sou o " + this.firstName);
+    }
 
-console.log(foods);
+    get fullName() {
+        console.log(`${this.firstName} ${this.lastName}`);
+    }
+}
+
+var p1 = new Pessoa("John", "Doe");
+p1.falar();
+Pessoa.fullName;
