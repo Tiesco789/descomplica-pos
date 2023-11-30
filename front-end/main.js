@@ -1,32 +1,17 @@
 /**
- * Maps
+ * Reduce
  */
 
+let total = 0;
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let num = numeros.map(function (valor) {
-    return valor * 2;
-});
+for (let i = 0; i < numeros.length; i++) {
+    total += numeros[i];
+}
+console.log(total);
 
-console.log(num);
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var totalNumb = numbers.reduce(function (total, numeros) {
+    return total + numeros;
+}, 0);
 
-var funcionario = [
-    {
-        nome: "Luis",
-        idade: 62
-    },
-    {
-        nome: "Davi",
-        idade: 22
-    },
-    {
-        nome: "Arthur",
-        idade: 18
-    },
-    {
-        nome: "Lucas",
-        idade: 40
-    }
-];
-
-var nomes = funcionario.map(pessoa => pessoa.nome);
-console.log(nomes);
+console.log(totalNumb);
