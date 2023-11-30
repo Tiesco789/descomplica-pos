@@ -46,6 +46,22 @@ console.log(arr1);
 arr1.pop(); // Retira o ultimo item do array
 console.log(arr1);
 
-
 // Separar numeros positivos de negativos e retorne apenas os positivos
 var ar = [-5, 10, 15, 20, -3, 89];
+
+
+var arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+arr2.splice(3, 8);
+console.log(arr2);
+
+var nomes = ["maria", "joao", "lucas", "pedro"];
+console.log(nomes);
+
+var novos = nomes.splice(1, 2, "luiz", "ronaldo");
+console.log(novos);
+
+var pais = ["brasil", "argentina", "colombia"];
+pais.unshift("uruguai")
+console.log(pais);
+pais.pop();
+pais.push();
