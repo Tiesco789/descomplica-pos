@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firsName": "Bruno Hauck",
+      "email": "brunohauck@gmail.com",
+      "phone": "123456789",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "firsName": "Paul Hauck",
+      "email": "paulhauck@gmail.com",
+      "phone": "123456789",
+      "password": "123456"
+    }
+  ]
+}
