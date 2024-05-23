@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "nome": "Jack",
+      "email": "jacky@gmail.com",
+      "sex": "male"
+    },
+    {
+      "id": 2,
+      "nome": "Peter",
+      "email": "peter@gmail.com",
+      "sex": "female"
+    },
+    {
+      "id": 3,
+      "nome": "Jack",
+      "email": "jacky@gmail.com",
+      "sex": "male"
+    },
+    {
+      "id": 4,
+      "nome": "Jack",
+      "email": "jacky@gmail.com",
+      "sex": "trans"
+    },
+    {
+      "id": 5,
+      "nome": "Jack",
+      "email": "jacky@gmail.com",
+      "sex": "male"
+    }
+  ]
+}
